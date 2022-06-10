@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1 {
+            background-color: rgb(14, 24, 163);
+            color: #fff;
+            font-size: xx-large;
+            text-align: center;
+            margin: 1px 550px;
+            border: #000 solid;
+            border-radius: 8px;
+        }
+
+        h2 {
+            background-color: rgb(24, 143, 54);
+            text-align: center;
+            color: antiquewhite;
+            margin: 1px 400px 2px 400px;
+            border-radius: 7px;
+        }
+
+        table {
+            background-color: rgba(34, 0, 112, 0.747);
+            color: hwb(60 97% 1%);
+        }
+
+        ::content {
+            background-color: rgb(139, 48, 48);
+            color: aliceblue
+        }
+
+        label {
+            color: #000;
+        }
+
+        input {
+            border: 6px solid rgb(0, 0, 0);
+            border-radius: 7px;
+        }
+
+        .ser {
+            border: 8px solid rgb(0, 0, 0);
+        }
+
+        .home {
+            border: #000 solid;
+            border-radius: 6px;
+        }
+    </style>
+
+
+</head>
+
+<body class="ser">
+    <h1>Qeydiyyat</h1>
+    <h2>BUTUN XANALARI DOLDURMAQ VACIBDIR !!!!</h2>
+    <header>
+        <a href="css.html" class="home">Home</a>
+    </header>
+    <form action="register.php">
+        <div class="ser">
+            <table>
+                <tr>
+                    <td><label for="ad">ad</label>
+                        <input type="text" id="ad" placeholder="ad yazin">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable for="soyad">soyad<lable>
+                                <input type="text" id="soyad" placeholder="soyad yazin">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lablefor="ataadi">ata adi</lable>
+                            <input type="text" id="ata adi" placeholder="ata adi yazin">
+                    </td>
+                </tr>
+
+            </table>
+        </div>
+        <br>
+        <div>
+            <table>
+                <tr>
+                    <td>cins</td>
+                </tr>
+                <tr>
+                    <td><label for="kishi">kishi</label>
+                        <input type="radio" id="kishi" name="cins"></td>
+                    <td><label for="qadin">qadin</label>
+                        <input type="radio" id="qadin" name="cins"></td>
+                </tr>
+
+            </table><br>
+
+        </div>
+        <div>
+            <lable for="date">dogum tarixi</lable>
+            <input type="date" id="date"><br><br>
+            <lable for="url">url yazin</lable>
+            <input type="url" id="url" placeholder="//https:"><br><br>
+        </div><br><br>
+        <div> <label for="Sheher">Doguldugu yer</label>
+            <select id="Sheher">
+                <option value="1">Absheron</option>
+                <option value="2">BAki</option>
+                <option value="3">Sumqayit</option>
+                <option value="4">Sumqayit</option>
+            </select>
+
+        </div>
+        <div>
+            <h2>Shexsi melumatlar</h2>
+            <table>
+                <tr>
+                    <td>
+                        <lable for="email">Email yaz</lable>
+                        <input type="email" placeholder="@mail.ru">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <lable for="parol">Parol</lable>
+                        <input type="password" id="parol">
+                    </td>
+                </tr>
+                <tr>
+                    <td><button>yadda saxla</button>
+                        <input type="reset" id="reset"></td>
+                </tr>
+            </table>
+        </div>
+        <div>
+            <p style="background-color: aqua;">izahli video</p><iframe width="360" height="215"
+                src="https://www.youtube.com/embed/zOa249zdsO8" title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+        </div>
+    </form>
+    
+</body>
+
+</html>
